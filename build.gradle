@@ -32,7 +32,7 @@ dependencies {
 
 
 bootRun.environment([
-        "WELCOME_MESSAGE": "hello",
+        "WELCOME_MESSAGE": "Hello from the review environment",
         "WELCOME_MESSAGE2": "hello2",
 ])
 
