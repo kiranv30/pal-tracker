@@ -24,7 +24,7 @@ private Map<Long,TimeEntry> timeEntryMap = new HashMap <Long,TimeEntry>();
         );
         timeEntryMap.put(tEntryId,newTimeEntry);
         tEntryId++;
-        return timeEntry;
+        return newTimeEntry;
     }
 
     @Override
