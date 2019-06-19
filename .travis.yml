@@ -28,6 +28,8 @@ jobs:
         api_key: $GITHUB_OAUTH_TOKEN
         file: "build/libs/pal-tracker.jar"
         skip_cleanup: true
+        on:
+          all_branches: true
     - stage: deploy to cf
       language: java
       before_install:
